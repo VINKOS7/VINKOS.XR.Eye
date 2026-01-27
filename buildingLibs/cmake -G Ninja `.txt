@@ -1,0 +1,33 @@
+cmake -G Ninja `
+-DCMAKE_MAKE_PROGRAM="C:\tools\ninja.exe" `
+-DCMAKE_TOOLCHAIN_FILE="C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Data\PlaybackEngines\AndroidPlayer\NDK\build\cmake\android.toolchain.cmake" `
+-DANDROID_ABI=arm64-v8a `
+-DANDROID_PLATFORM=android-29 `
+-DANDROID_SDK_ROOT="C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK" `
+-DANDROID_NDK="C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Data\PlaybackEngines\AndroidPlayer\NDK" `
+-DCMAKE_BUILD_TYPE=Release `
+-DBUILD_SHARED_LIBS=ON `
+-DBUILD_opencv_world=ON `
+-DBUILD_opencv_java=OFF `
+-DBUILD_ANDROID_EXAMPLES=OFF `
+-DBUILD_TESTS=OFF `
+-DBUILD_PERF_TESTS=OFF `
+-DBUILD_EXAMPLES=OFF `
+-DBUILD_DOCS=OFF `
+-DBUILD_opencv_dnn=OFF `
+-DBUILD_opencv_ml=OFF `
+-DBUILD_opencv_features2d=OFF `
+-DBUILD_opencv_flann=OFF `
+-DBUILD_opencv_calib3d=OFF `
+-DBUILD_opencv_stitching=OFF `
+-DBUILD_opencv_highgui=OFF `
+-DBUILD_opencv_gapi=OFF `
+-DBUILD_opencv_photo=OFF `
+-DBUILD_opencv_videoio=OFF `
+-DWITH_OPENCL=OFF `
+-DWITH_IPP=OFF `
+-DWITH_TBB=OFF `
+-DWITH_EIGEN=OFF `
+-DWITH_CUDA=OFF `
+-DWITH_VULKAN=OFF `
+"..\opencv"
