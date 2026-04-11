@@ -1,0 +1,38 @@
+mqtt:
+  enabled: false
+
+cameras:
+  quest_3: # Переименовали камеру, чтобы не было "name_of_your_camera"
+    enabled: true
+    ffmpeg:
+      inputs:
+        # Используем host.docker.internal, чтобы Docker увидел твою Windows
+        - path: rtsp://host.docker.internal:8555/eyes
+          roles:
+            - detect
+            - record # Добавляем роль record, чтобы Frigate пропускал полный поток
+    detect:
+      enabled: true
+      width: 640
+      height: 480
+      fps: 5
+
+    # Чтобы в веб-морде было плавно:
+    live:
+      height: 480
+      quality: 1
+      
+    # Настройки записи (даже если не пишешь на диск, роль нужна для стриминга)
+    record:
+      enabled: false # Мы не пишем файлы, просто активируем роль для плавности
+
+detectors:
+  ov:
+    type: cpu
+
+objects:
+  track:
+    - person
+detect:
+  enabled: true
+version: 0.16-0

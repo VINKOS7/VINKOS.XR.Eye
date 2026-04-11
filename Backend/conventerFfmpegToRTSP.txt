@@ -1,0 +1,5 @@
+docker run -d --name eyes_bridge2 --restart always -p 1984:1984 linuxserver/ffmpeg:latest `
+>>   -fflags nobuffer -flags low_delay `
+>>   -f mjpeg -i tcp://0.0.0.0:1984?listen `
+>>   -c:v libx264 -preset ultrafast -tune zerolatency -g 1 `
+>>   -f rtsp -rtsp_transport tcp rtsp://host.docker.internal:8555/eyes
