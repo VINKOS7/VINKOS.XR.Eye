@@ -1,3 +1,0 @@
-C:/Users/Constantin Nauman/mr-example-meta-openxr-main/Assets/Plugins/Android/buildingLibs/CMakeFiles/EyeBridge.dir
-C:/Users/Constantin Nauman/mr-example-meta-openxr-main/Assets/Plugins/Android/buildingLibs/CMakeFiles/edit_cache.dir
-C:/Users/Constantin Nauman/mr-example-meta-openxr-main/Assets/Plugins/Android/buildingLibs/CMakeFiles/rebuild_cache.dir

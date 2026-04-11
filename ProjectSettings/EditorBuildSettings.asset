@@ -6,15 +6,31 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 55daccc09a3b69647bbab145b54a3ab3
+    path: Assets/Scenes/StartScene/StartScene.unity
+    guid: 69e1b31c45bac42f88f75017ee404de1
+  - enabled: 1
+    path: Assets/Scenes/DeHazeEyes/DeHazeEyes.unity
+    guid: 9fd3fa81b2c37304d97d54a52bddca4c
+  - enabled: 1
+    path: Assets/Scenes/FacesDetector/FacesDetector.unity
+    guid: 2a86b776de15d2c4c839c7d8628b6ca2
+  - enabled: 1
+    path: Assets/Scenes/CameraViewer/CameraViewer.unity
+    guid: ad5bb12b10679b840999aa322aa7a491
+  - enabled: 1
+    path: Assets/Scenes/CameraToWorld/CameraToWorld.unity
+    guid: 756785b371a4f49438b7e2148816e892
+  - enabled: 1
+    path: Assets/Scenes/BrightnessEstimation/BrightnessEstimation.unity
+    guid: 8ea13e682474e1748965f8e21972f2b2
+  - enabled: 1
+    path: Assets/Scenes/MultiObjectDetection/MultiObjectDetection.unity
+    guid: 20c230cce46443841b5727b1d6100bfc
+  - enabled: 1
+    path: Assets/Scenes/ShaderSample/ShaderSample.unity
+    guid: 708e8dca6055146b28afe2481f141457
   m_configObjects:
-    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
-    Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba, type: 2}
-    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 2e05861145f7f8e4e88f13a9eefcc40a, type: 2}
-    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 6c4f4ab68eb32044aafdc72d793daaad, type: 2}
-    com.unity.input.settings: {fileID: 11400000, guid: 060aaa946b64341439f417ebf1b920a6, type: 2}
-    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 56a98106ce58f09459a9990007b50acb, type: 2}
-    com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: 43e231e21fbbf574a9be9d5f1a44b151, type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 1a4c68ca72a83449f938d669337cb305, type: 2}
-    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: a9a6963505ddf7f4d886008c6dc86122, type: 2}
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: f2bf97b3acdb64248a707c407c9fc54e, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a971eac5e950046e586c5e153e32d05c, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 9165b3c3dec8d446f9b11d1a99b6e245, type: 2}
+  m_UseUCBPForAssetBundles: 0
